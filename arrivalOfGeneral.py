@@ -2,7 +2,7 @@ size = int(input())
 n = list(map(int, input().split()))
 
 
-counter = 0
+counter = 0py
 for i in n:
     maxIndex = n.index(max(n))
     if maxIndex==0:
